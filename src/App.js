@@ -3,6 +3,7 @@ import logo from './logo.svg'
 
 function App() {
   const person = {name: "Jhon Doe",city: "Park Avanue",country: "USA"}
+  const deco = {width: "100px",border: "none",padding: "8px",background: "orange",borderRadius: "5px"}
   return (
     <div style={{textAlign: "center",color: "#001122"}}>
       <h1>I am Deployed</h1>
@@ -12,7 +13,7 @@ function App() {
           <li>City: {person.city}</li>
           <li>Country: {person.country}</li>
         </ul>
-      <button>Check</button>
+      <button style={deco}>Check</button>
 
     </div>
   )
