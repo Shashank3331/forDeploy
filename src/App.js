@@ -8,9 +8,9 @@ function App() {
       <h1>I am Deployed</h1>
       <img src={logo} alt="logo" width={100} />
         <ul>
-          <li>{person.name}</li>
-          <li>{person.city}</li>
-          <li>{person.country}</li>
+          <li>Name: {person.name}</li>
+          <li>City: {person.city}</li>
+          <li>Country: {person.country}</li>
         </ul>
       <button>Check</button>
 
