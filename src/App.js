@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from './logo.svg'
+import Test from './Test'
 
 function App() {
   const person = {name: "Jhon Doe",city: "Park Avanue",country: "USA"}
@@ -14,6 +15,7 @@ function App() {
           <li>Country: {person.country}</li>
         </ul>
       <button style={deco}>Check</button>
+      <Test/>
 
     </div>
   )
